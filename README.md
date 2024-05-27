@@ -1,4 +1,4 @@
-# MLLM-Guided Image Editing with Progressive Feature Blending and Cross-Attention Masking
+# EntendedMGIE - MLLM-Guided Image Editing with Progressive Feature Blending and Cross-Attention Masking
 
 Welcome to the official implementation of the enhanced MLLM-Guided Image Editing (MGIE) framework! This cutting-edge project combines Progressive Feature Blending (PFB) and Cross-Attention Masking (CAM) techniques to produce high-quality, semantically aligned, and controllable text-driven image edits. Leveraging the expressive capabilities of Multimodal Large Language Models (MLLMs), our framework ensures realistic and coherent edited images, guided by sophisticated visual-aware instructions.
 
@@ -66,21 +66,23 @@ Ready to dive in? Follow these steps to set up and start using the enhanced MGIE
 
 3. Download the pretrained models and datasets:
 
--Place the pretrained MLLM model (e.g., LLaVA-7B) in the models/ directory.
--Place the desired datasets (e.g., COCO, CUB, Oxford-102 Flowers) in the data/ directory.
+   - Place the pretrained MLLM model (e.g., LLaVA-7B) in the `models/` directory.
+   - Place the desired datasets (e.g., COCO, CUB, Oxford-102 Flowers) in the `data/` directory.
 
-### Usage
-1-Open the code/mgie_implementation.ipynb Jupyter notebook.
-2-Follow the instructions to train and test the framework on your chosen datasets.
-3-Modify the notebook as needed to experiment with different settings and hyperparameters.
-4-Provide input images, text prompts, and binary masks (if applicable) to generate edited images.
-5-Find your edited images saved in the results/output_images/ directory.
+## Usage
 
+1. Open the `code/mgie_implementation.ipynb` Jupyter notebook.
+2. Follow the instructions to train and test the framework on your chosen datasets.
+3. Modify the notebook as needed to experiment with different settings and hyperparameters.
+4. Provide input images, text prompts, and binary masks (if applicable) to generate edited images.
+5. Find your edited images saved in the `results/output_images/` directory.
 
-### Contributing
+## Contributing
+
 We welcome contributions! If you encounter issues or have suggestions for improvement, please open an issue or submit a pull request. Adhere to the existing code style and provide detailed explanations of your changes.
 
-### Acknowledgements
+## Acknowledgements
+
 We extend our gratitude to the original MGIE framework and PFB-Diff method authors for their foundational work in text-driven image editing. Thanks also to the open-source community for providing essential tools and libraries used in this implementation.
 
 
