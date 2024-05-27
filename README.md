@@ -2,6 +2,8 @@
 
 Welcome to the official implementation of the enhanced MLLM-Guided Image Editing (MGIE) framework! This cutting-edge project combines Progressive Feature Blending (PFB) and Cross-Attention Masking (CAM) techniques to produce high-quality, semantically aligned, and controllable text-driven image edits. Leveraging the expressive capabilities of Multimodal Large Language Models (MLLMs), our framework ensures realistic and coherent edited images, guided by sophisticated visual-aware instructions.
 
+![Architecture of the ExtendedMGIE framework](https://github.com/Cardano-max/MGIE--ExtendedMGIE/assets/82231509/67957592-05f5-42d8-8e71-40952e9e118b)
+
 ## Table of Contents
 
 - [Introduction](#introduction)
