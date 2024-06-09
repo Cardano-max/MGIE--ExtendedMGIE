@@ -2,8 +2,8 @@
 
 Welcome to the official implementation of the advanced MGIE framework, which now integrates Progressive Feature Blending (PFB), Cross-Attention Masking (CAM), Identity Embeddings (IE), and Gaussian Blurring (GB) for unparalleled text-driven image editing. Utilizing the robust capabilities of Multimodal Large Language Models (MLLMs), our enhanced framework not only ensures realistic and coherent image modifications but also meticulously preserves the identity and spatial consistency of the edited regions. These improvements enable highly detailed, semantically aligned, and controllable edits, guided by sophisticated visual-aware instructions, setting a new standard in the field of image manipulation.
 
-Architecture of the xMGIE framework([Identity Encoding Network](https://github.com/Cardano-max/MGIE--ExtendedMGIE/assets/82231509/c11d4c01-001e-4a13-a21b-688ed9e19eeb)
-)
+Architecture of the xMGIE framework ![Identity Encoding Network](https://github.com/Cardano-max/MGIE--ExtendedMGIE/assets/82231509/8dfaf342-377f-4f14-946a-9fa1d2d22b3e)
+
 
 ## Table of Contents
 
