@@ -1,6 +1,6 @@
 # EntendedMGIE - MLLM-Guided Image Editing with Progressive Feature Blending and Cross-Attention Masking
 
-Welcome to the official implementation of the enhanced MLLM-Guided Image Editing (MGIE) framework! This cutting-edge project combines Progressive Feature Blending (PFB) and Cross-Attention Masking (CAM) techniques to produce high-quality, semantically aligned, and controllable text-driven image edits. Leveraging the expressive capabilities of Multimodal Large Language Models (MLLMs), our framework ensures realistic and coherent edited images, guided by sophisticated visual-aware instructions.
+Welcome to the official implementation of the advanced MGIE framework, which now integrates Progressive Feature Blending (PFB), Cross-Attention Masking (CAM), Identity Embeddings (IE), and Gaussian Blurring (GB) for unparalleled text-driven image editing. Utilizing the robust capabilities of Multimodal Large Language Models (MLLMs), our enhanced framework not only ensures realistic and coherent image modifications but also meticulously preserves the identity and spatial consistency of the edited regions. These improvements enable highly detailed, semantically aligned, and controllable edits, guided by sophisticated visual-aware instructions, setting a new standard in the field of image manipulation.
 
 ![Architecture of the ExtendedMGIE framework](https://github.com/Cardano-max/MGIE--ExtendedMGIE/assets/82231509/67957592-05f5-42d8-8e71-40952e9e118b)
 
@@ -20,12 +20,14 @@ Welcome to the official implementation of the enhanced MLLM-Guided Image Editing
 
 ## Introduction
 
-The MLLM-Guided Image Editing (MGIE) framework is designed to revolutionize text-driven image editing. By integrating MLLMs to generate detailed instructions, our framework guides the editing process to achieve outstanding results. While the original MGIE framework was impressive, our enhancements with Progressive Feature Blending (PFB) and Cross-Attention Masking (CAM) take it to the next level.
+The MLLM-Guided Image Editing (MGIE) framework is designed to revolutionize text-driven image editing by leveraging Multimodal Large Language Models (MLLMs) to generate detailed, visually-aware instructions. While the original MGIE framework was impressive, our enhancements with Progressive Feature Blending (PFB), Cross-Attention Masking (CAM), Identity Embeddings (IE), and Gaussian Blurring (GB) elevate its capabilities to a new level of precision and realism.
 
 ### Key Enhancements
 
 - **Progressive Feature Blending (PFB):** Seamlessly integrates MLLM-generated content with the original image across multiple feature levels, ensuring visual coherence and consistency.
 - **Cross-Attention Masking (CAM):** Provides precise control over the editing process by focusing the influence of specific text tokens on desired image regions.
+- - **Identity Embeddings (IE):** Preserves the identity and key characteristics of objects and individuals in the image, maintaining their distinctive features throughout the editing process.
+- **Gaussian Blurring (GB):** Enhances spatial coherence and natural blending of edited regions with the original image through spatially-varying Gaussian blur techniques.
 
 Extensive experiments and analyses demonstrate that our enhanced MGIE framework outperforms previous methods in terms of visual quality, semantic alignment, and faithfulness to the original image.
 
@@ -73,7 +75,7 @@ Ready to dive in? Follow these steps to set up and start using the enhanced MGIE
 
 ## Usage
 
-1. Open the `code/mgie_implementation.ipynb` Jupyter notebook.
+1. Open the `code/mgie_implementation.ipynb` Jupyter notebook(Inference).
 2. Follow the instructions to train and test the framework on your chosen datasets.
 3. Modify the notebook as needed to experiment with different settings and hyperparameters.
 4. Provide input images, text prompts, and binary masks (if applicable) to generate edited images.
